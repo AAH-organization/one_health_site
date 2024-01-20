@@ -32,7 +32,7 @@
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:quac1701@gmail.com?subject=I like react landing page!"
     }
   },
   "product": {
@@ -102,9 +102,9 @@
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "github": "",
+      "twitter": "",
+      "linkedin": ""
     }
   }
 }
