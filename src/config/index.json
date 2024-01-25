@@ -36,17 +36,21 @@
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Các sản phẩm nổi bật",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Bột ngũ cốc dinh dưỡng NANA",
+        "price": "150k",
+        "originalPrice": "185k",
+        "description": "Bột ngũ cốc làm từ hạt óc chó đỏ, óc chó vàng, Hạnh nhân, Macca, Hạt điều, Hạt chia, Ý dĩ, Yến mạch, Mầm đậu đen xanh lồng, Mầm đậu đỏ, Mầm dậu xanh, Mè đen, Mè vàng Gạo lứt đỏ, Hạt sen......",
+        "img": "/assets/images/botNguCoc.jpg"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Đường mía hà thủ ô",
+        "price": "90k",
+        "originalPrice": "100k",
+        "description": "Đường mía Hà Thủ Ô giúp thanh lọc độc tố trong cơ thể và hỗ trợ cải thiện, giảm bớt bệnh tật. Đường trắng là loại đường âm, tuy nhiên đường mía Hà Thủ Ô lại là đường dương. Dùng thay thế cho đường âm hàng ngày, vừa ngon vừa thơm vừa không sợ bệnh. Giúp đẩy bệnh ra khỏi cơ thể và phòng bệnh, làm đẹp da.",
+        "img": "/assets/images/duongMia.jpg"
       }
     ]
   },

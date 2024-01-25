@@ -2,6 +2,12 @@ import React from 'react';
 
 import config from '../config/index.json';
 import Divider from './Divider';
+import { Button } from 'antd';
+import styled from 'styled-components';
+
+const ButtonStyle = styled(Button)`
+  margin-top: 8px;
+`;
 
 const Product = () => {
   const { product } = config;
@@ -30,7 +36,10 @@ const Product = () => {
             >
               {firstItem?.title}
             </h3>
+            <p className={`text-gray-600`}>Chỉ còn: {firstItem?.price} | Giá gốc: {firstItem?.originalPrice}</p>
             <p className={`text-gray-600`}>{firstItem?.description}</p>
+            <ButtonStyle onClick={()=>{}}>Đặt hàng ngay</ButtonStyle>
+
           </div>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
@@ -55,7 +64,9 @@ const Product = () => {
               >
                 {secondItem?.title}
               </h3>
+              <p className={`text-gray-600`}>Chỉ còn: {secondItem?.price} | Giá gốc: {secondItem?.originalPrice}</p>
               <p className={`text-gray-600 mb-8`}>{secondItem?.description}</p>
+              <ButtonStyle onClick={()=>{}}>Đặt hàng ngay</ButtonStyle>
             </div>
           </div>
         </div>
