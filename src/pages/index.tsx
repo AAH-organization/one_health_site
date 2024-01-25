@@ -1,35 +1,44 @@
-import React from 'react';
-
-import Analytics from '../components/Analytics';
-import Canvas from '../components/Canvas';
-import Features from '../components/Features';
-import Header from '../components/Header';
-import LazyShow from '../components/LazyShow';
-import MainHero from '../components/MainHero';
-import MainHeroImage from '../components/MainHeroImage';
-import Product from '../components/Product';
+import { Carousel } from "antd";
+import About from "../components/About";
+import Analytics from "../components/Analytics";
+import Canvas from "../components/Canvas";
+import Features from "../components/Features";
+import Header from "../components/Header";
+import LazyShow from "../components/LazyShow";
 
 const App = () => {
+  const onChange = (currentSlide: number) => {
+    console.log(currentSlide);
+  };
+
   return (
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
-      <div className={`relative bg-background`}>
-        <div className="max-w-7xl mx-auto">
+      <div className={`relative bg-background w-screen`}>
+        <div className="w-full mx-auto">
           <div
-            className={`relative z-10 pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
+            className={`relative z-10 pb-8 bg-background lg:max-w-2xl lg:w-full `}
           >
             <Header />
-            <MainHero />
+          </div>
+          <div className="border-t-8 border-[#17a2b8]">
+            <Carousel autoplay className="w-12/12" afterChange={onChange}>
+              <div>
+                <img src="/assets/images/site2.jpg"></img>
+              </div>
+              <div>
+                <img src="/assets/images/site1.jpg"></img>
+              </div>
+              <div>
+                <img src="/assets/images/site1.jpg"></img>
+              </div>
+              <div>
+                <img src="/assets/images/site1.jpg"></img>
+              </div>
+            </Carousel>
           </div>
         </div>
-        <MainHeroImage />
       </div>
-      {/* <Canvas /> */}
-      <LazyShow>
-        <>
-          <Product />
-          <Canvas />
-        </>
-      </LazyShow>
+     
       <LazyShow>
         <>
           <Features />
@@ -43,6 +52,7 @@ const App = () => {
         </>
       </LazyShow> */}
       <Analytics />
+      <About />
     </div>
   );
 };
