@@ -45,12 +45,6 @@ const App = () => {
           <Canvas />
         </>
       </LazyShow>
-      {/* <LazyShow>
-        <>
-          <Canvas />
-          <About />
-        </>
-      </LazyShow> */}
       <Analytics />
       <About />
     </div>

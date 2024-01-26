@@ -50,7 +50,7 @@ const Product = () => {
           </div>
         </div>
         <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
-          <div className={`w-full sm:w-1/2 p-6`}>
+          <div className={`w-full sm:w-1/2 p-6`}>   
             <img
               className="h-6/6"
               src={secondItem?.img}
