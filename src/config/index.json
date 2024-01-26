@@ -42,15 +42,15 @@
         "title": "Bột ngũ cốc dinh dưỡng NANA",
         "price": "150k",
         "originalPrice": "185k",
-        "description": "Bột ngũ cốc làm từ hạt óc chó đỏ, óc chó vàng, Hạnh nhân, Macca, Hạt điều, Hạt chia, Ý dĩ, Yến mạch, Mầm đậu đen xanh lồng, Mầm đậu đỏ, Mầm dậu xanh, Mè đen, Mè vàng Gạo lứt đỏ, Hạt sen......",
-        "img": "/assets/images/botNguCoc.jpg"
+        "description": "THÀNH PHẦN : Hạt óc chó đỏ , Óc chó vàng , Hạnh nhân , Macca , Hạt điều , Hạt chia , Ý dĩ , Yến mạch , Mầm đậu đen xanh lòng, Mầm đậu đỏ , Mầm đậu xanh , Mè đen , Mè trắng , Gạo lứt đỏ , Hạt sen .",
+        "img": "/assets/images/botngucoc.png"
       },
       {
         "title": "Đường mía hà thủ ô",
         "price": "90k",
         "originalPrice": "100k",
-        "description": "Đường mía Hà Thủ Ô giúp thanh lọc độc tố trong cơ thể và hỗ trợ cải thiện, giảm bớt bệnh tật. Đường trắng là loại đường âm, tuy nhiên đường mía Hà Thủ Ô lại là đường dương. Dùng thay thế cho đường âm hàng ngày, vừa ngon vừa thơm vừa không sợ bệnh. Giúp đẩy bệnh ra khỏi cơ thể và phòng bệnh, làm đẹp da.",
-        "img": "/assets/images/duongMia.jpg"
+        "description": "Đường mía hà thủ ô là sự kết hợp hoàn hảo giữa đường mía và thảo dược hà thủ ô. Sản phẩm này không chỉ là một loại đường ngon mà còn mang lại nhiều lợi ích cho sức khỏe của người dùng, đặc biệt là những người quan tâm đến cuộc sống kiềm. Đường mía hà thủ ô giúp kiềm hóa cơ thể bằng cách đẩy bệnh ra khỏi cơ thể, cải thiện sức khỏe tim mạch, phòng chống bệnh tiểu đường và làm đẹp da. Bạn có thể sử dụng sản phẩm này hàng ngày để hưởng thụ những lợi ích của nó và đảm bảo cuộc sống kiềm của mình.",
+        "img": "/assets/images/duongmia.png"
       }
     ]
   },
